@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+div#wrapper{
+    display: block;
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+}
+div#search{
+    display: block;
+    position: relative;
+    background-color: lavender;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    padding: 2em 12em;
+    margin:0 auto;
+    border-radius: 10px;
+    top: 10px;
+}
+label{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 10px;
+    color: black;
+}
+input{
+    position: relative;
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+div#results{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    padding: 1em 3em;
+}
+button{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 15px 22px;
+    border:none;
+    color:white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: indigo;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+article{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 3em;
+}
+ul#container{
+    padding: 0px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    margin: 0 auto;
+}
+li.list{
+    display: block;
+    position: relative;
+    padding: 30px;
+    border: 1px solid lavender;
+    border-radius: 6px;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+li:nth-last-child(-n+3){
+    background-color: lavender;
+}
+/* li:first-child{
+    background-color: lavender;
+} */
+li:last-child{
+    background-color: lavender;
+}
+img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    right: 30px;   
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    /* font-size: 2rem; */
+}
+a:hover{
+    text-decoration:underline;
+    color: tomato;
+}
+h2.job_title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 8px 0;
+}
+p{
+    font-size: 1.2rem;
+    padding: 5px 0px;
+}
+p.job_company{
+    font-size: 1.3rem;
+}
+p.job_location{
+    text-transform: capitalize;
+}
+
+p.job_type{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+small.job_date{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+span[data-clear-input]{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    right: 29%;
+}
+
+span.countStyle{
+    position: relative;
+    display: block;
+    padding: 1em;
+    background-color: lavenderblush;
+    text-align: center;
+}
+
+

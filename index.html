@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Jobs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <div id="search">
+            <label for="search-position">Job title</label>
+            <input type="text"  onfocus = "this.value = ''" id="input" class="search-position" value = "Input postion and press Enter" placeholder="Input position and press Enter...">
+            <span class="clearInput"  onclick="document.querySelector('#input').value = ' '" data-clear-input>&times;</span>
+            <!-- <button type="submit">Search</button> -->
+        </div>
+        <div id="results"></div>
+        
+        <!-- <button class="btn">Get data</button> -->
+        <article>
+            <ul id="container"></ul>
+        </article>
+        <main class="jobs">
+            <ul id="allJobs">
+                <!-- <li>
+                    <h3 class="company"></h3>
+                    <h2 class="title"></h2>
+                    <div class="details">
+                        <p class="city">Berlin</p>
+                        <p class="date">Jan 21, 2020</p>
+                    </div>
+                </li> -->
+            </ul>
+        </main>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
